@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1770F0B7E46F4B756516D800 /* Pods_ProjectStructureExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334B085B13741C064B0FA215 /* Pods_ProjectStructureExampleTests.framework */; };
 		2F5C7254DB2011F4E21C4A89 /* Pods_ProjectStructureExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA014740BD7E31863533B76 /* Pods_ProjectStructureExample.framework */; };
+		6037DD9121875908002EF1B8 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 6037DD9021875908002EF1B8 /* .gitkeep */; };
 		7373140ADB3B011D18071C90 /* Pods_ProjectStructureExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A54927BC7F7237BDC814A6 /* Pods_ProjectStructureExampleUITests.framework */; };
 		A4CC50382183979F00D4F5D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CC50372183979F00D4F5D7 /* AppDelegate.swift */; };
 		A4CC503A2183979F00D4F5D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CC50392183979F00D4F5D7 /* ViewController.swift */; };
@@ -80,6 +81,7 @@
 		334B085B13741C064B0FA215 /* Pods_ProjectStructureExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectStructureExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A15DD623CF3934CFEB2AF9 /* Pods-ProjectStructureExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectStructureExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectStructureExample/Pods-ProjectStructureExample.release.xcconfig"; sourceTree = "<group>"; };
 		550E58CE2A837254D9A7C0CF /* Pods-ProjectStructureExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectStructureExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectStructureExample/Pods-ProjectStructureExample.debug.xcconfig"; sourceTree = "<group>"; };
+		6037DD9021875908002EF1B8 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		7F2622F9E3B70DADACC2C496 /* Pods-ProjectStructureExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectStructureExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectStructureExampleTests/Pods-ProjectStructureExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		9094804F0EAF7B894965F92C /* Pods-ProjectStructureExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectStructureExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectStructureExampleTests/Pods-ProjectStructureExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4CC50342183979F00D4F5D7 /* ProjectStructureExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectStructureExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +153,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6037DD8E21875908002EF1B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6037DD8F21875908002EF1B8 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6037DD8F21875908002EF1B8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6037DD9021875908002EF1B8 /* .gitkeep */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		7122A75D76E1C4599038EF12 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,8 +208,9 @@
 		A4CC50362183979F00D4F5D7 /* ProjectStructureExample */ = {
 			isa = PBXGroup;
 			children = (
-				A4CC50672183985D00D4F5D7 /* Shared */,
+				6037DD8E21875908002EF1B8 /* Resources */,
 				A4CC50652183984800D4F5D7 /* Screens */,
+				A4CC50672183985D00D4F5D7 /* Shared */,
 				A4CC50372183979F00D4F5D7 /* AppDelegate.swift */,
 				A4CC503E218397A000D4F5D7 /* Assets.xcassets */,
 				A4CC5043218397A000D4F5D7 /* Info.plist */,
@@ -546,6 +565,7 @@
 				A4CC5042218397A000D4F5D7 /* LaunchScreen.storyboard in Resources */,
 				A4CC503F218397A000D4F5D7 /* Assets.xcassets in Resources */,
 				A4CC503D2183979F00D4F5D7 /* Main.storyboard in Resources */,
+				6037DD9121875908002EF1B8 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
